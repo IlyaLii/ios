@@ -2,6 +2,6 @@
 
 @interface Encryption : NSObject
 
-- (NSString *)encryption:(NSString *)string;
+- (NSMutableString *)encryption:(NSString *)string;
 
 @end

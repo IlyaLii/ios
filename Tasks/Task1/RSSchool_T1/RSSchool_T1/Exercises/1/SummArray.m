@@ -1,10 +1,14 @@
 #import "SummArray.h"
 
 @implementation SummArray
-
 // Complete the summArray function below.
 - (NSNumber *)summArray:(NSArray *)array {
-    return @(0);
+    NSInteger sum = 0;
+    for (NSNumber *n in array) {
+        sum+=[n intValue];
+        [n release];
+    }
+    return @(sum);
 }
 
 @end

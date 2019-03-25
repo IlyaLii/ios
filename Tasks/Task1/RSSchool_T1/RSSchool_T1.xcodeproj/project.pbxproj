@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7800580322493D7A00474C3D /* Diagonal.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA869D2242528F00AFC095 /* Diagonal.m */; };
 		BDBA865022419F4D00AFC095 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA864F22419F4D00AFC095 /* AppDelegate.m */; };
 		BDBA865222419F4E00AFC095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBA865122419F4E00AFC095 /* Assets.xcassets */; };
 		BDBA865522419F4E00AFC095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBA865322419F4E00AFC095 /* LaunchScreen.storyboard */; };
@@ -27,14 +28,12 @@
 		BDBA868A2242472100AFC095 /* Sorted.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BDBA86882242472100AFC095 /* Sorted.pdf */; };
 		BDBA868D2242473900AFC095 /* Sorted.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA868C2242473900AFC095 /* Sorted.m */; };
 		BDBA868E2242473900AFC095 /* Sorted.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA868C2242473900AFC095 /* Sorted.m */; };
-		BDBA869222424B1000AFC095 /* SummArray.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA869122424B1000AFC095 /* SummArray.m */; };
 		BDBA869322424B1000AFC095 /* SummArray.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA869122424B1000AFC095 /* SummArray.m */; };
 		BDBA869522424B3500AFC095 /* arraysum.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BDBA869422424B3500AFC095 /* arraysum.pdf */; };
 		BDBA869622424B3500AFC095 /* arraysum.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BDBA869422424B3500AFC095 /* arraysum.pdf */; };
 		BDBA869822424C4D00AFC095 /* SummArray_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA869722424C4D00AFC095 /* SummArray_Test.m */; };
 		BDBA869922424C8400AFC095 /* SummArray.h in Sources */ = {isa = PBXBuildFile; fileRef = BDBA869022424B1000AFC095 /* SummArray.h */; };
 		BDBA869A22424C8400AFC095 /* Sorted.h in Sources */ = {isa = PBXBuildFile; fileRef = BDBA868B2242473900AFC095 /* Sorted.h */; };
-		BDBA869E2242528F00AFC095 /* Diagonal.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA869D2242528F00AFC095 /* Diagonal.m */; };
 		BDBA869F2242528F00AFC095 /* Diagonal.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA869D2242528F00AFC095 /* Diagonal.m */; };
 		BDBA86A1224252B300AFC095 /* Diagonal_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA86A0224252B300AFC095 /* Diagonal_Test.m */; };
 		BDBA86A322425DCE00AFC095 /* diagonaldifference.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BDBA86A222425DCD00AFC095 /* diagonaldifference.pdf */; };
@@ -204,8 +203,8 @@
 			isa = PBXGroup;
 			children = (
 				BDBA86A222425DCD00AFC095 /* diagonaldifference.pdf */,
-				BDBA869C2242528F00AFC095 /* Diagonal.h */,
 				BDBA869D2242528F00AFC095 /* Diagonal.m */,
+				BDBA869C2242528F00AFC095 /* Diagonal.h */,
 			);
 			path = 2;
 			sourceTree = "<group>";
@@ -266,7 +265,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BDBA864622419F4D00AFC095 /* Build configuration list for PBXProject "RSSchool_T1" */;
+			buildConfigurationList = BDBA864622419F4D00AFC095 /* Build configuration list for PBXProject "RSSchool_T1Ilya" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -319,10 +318,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7800580322493D7A00474C3D /* Diagonal.m in Sources */,
 				BDBA865822419F4E00AFC095 /* main.m in Sources */,
-				BDBA869222424B1000AFC095 /* SummArray.m in Sources */,
 				BDBA866F2241A12700AFC095 /* Pangrams.m in Sources */,
-				BDBA869E2242528F00AFC095 /* Diagonal.m in Sources */,
 				BDBA868D2242473900AFC095 /* Sorted.m in Sources */,
 				BDBA86792241AAD200AFC095 /* Encryption.m in Sources */,
 				BDBA865022419F4D00AFC095 /* AppDelegate.m in Sources */,
@@ -382,7 +380,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -441,7 +439,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -556,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BDBA864622419F4D00AFC095 /* Build configuration list for PBXProject "RSSchool_T1" */ = {
+		BDBA864622419F4D00AFC095 /* Build configuration list for PBXProject "RSSchool_T1Ilya" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDBA866422419F4E00AFC095 /* Debug */,
