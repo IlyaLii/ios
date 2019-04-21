@@ -266,7 +266,6 @@
         flag.image = [UIImage imageNamed:@"flag_RU"];
         textField.text = [self formatFor10Numbers: textField.text];
     }
-
     else{
         flag.image = nil;
     }
